@@ -18,7 +18,7 @@ public class LoginPage{
 	private final Logger log = LoggerHelper.getLogger(LoginPage.class);
 	WaitHelper waitHelper;
 	
-	@FindBy(xpath="//*[@id='header']/div[2]/div/div/nav/div[1]/a")
+	@FindBy(xpath="//a[contains(@class,'login')]")
 	WebElement signin;
 	
 	@FindBy(xpath="//*[@id='email']")
