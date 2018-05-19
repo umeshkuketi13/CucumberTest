@@ -1,6 +1,7 @@
 @tag
 Feature: ProductCategoryPage
-@tag
+
+  @tag
   Scenario: Verify Total Number Of Women Dress Products
     Given navigate to application
     And user click on women navigation menu
