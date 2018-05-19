@@ -3,10 +3,10 @@ package com.cucumber.ecommerce.stepdefinition.ProductCategory;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 
+import com.cucumber.ecommerce.support.Logger.LoggerHelper;
 import com.cucumber.ecommerce.support.PageObject.HomePage;
 import com.cucumber.ecommerce.support.PageObject.ProductCategoryPage;
 import com.cucumber.ecommerce.support.TestBase.TestBase;
-import com.cucumber.ecoomerce.support.Logger.LoggerHelper;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

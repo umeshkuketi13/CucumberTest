@@ -6,7 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.cucumber.ecoomerce.support.Logger.LoggerHelper;
+import com.cucumber.ecommerce.support.Logger.LoggerHelper;
 
 
 public class JavaScriptHelper {

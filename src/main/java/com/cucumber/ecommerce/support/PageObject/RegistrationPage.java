@@ -11,9 +11,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import com.cucumber.ecommerce.support.Logger.LoggerHelper;
 import com.cucumber.ecommerce.support.WaitConfig.WaitHelper;
 import com.cucumber.ecommerce.support.readerconfig.ObjectRepo;
-import com.cucumber.ecoomerce.support.Logger.LoggerHelper;
 
 public class RegistrationPage {
 

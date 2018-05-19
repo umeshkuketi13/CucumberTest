@@ -19,6 +19,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.cucumber.ecommerce.Utility.DateTimeHelper;
 import com.cucumber.ecommerce.Utility.ResourceHelper;
+import com.cucumber.ecommerce.support.Logger.LoggerHelper;
 import com.cucumber.ecommerce.support.browserconfig.BrowserType;
 import com.cucumber.ecommerce.support.browserconfig.ChromeBrowser;
 import com.cucumber.ecommerce.support.browserconfig.FirefoxBrowser;
@@ -26,7 +27,6 @@ import com.cucumber.ecommerce.support.browserconfig.HtmlUnitBrowser;
 import com.cucumber.ecommerce.support.browserconfig.IExploreBrowser;
 import com.cucumber.ecommerce.support.readerconfig.ObjectRepo;
 import com.cucumber.ecommerce.support.readerconfig.PropertyFileReader;
-import com.cucumber.ecoomerce.support.Logger.LoggerHelper;
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import com.google.common.base.Function;
 
@@ -172,7 +172,7 @@ public class TestBase {
 
 	@After()
 	public void after(Scenario scenario) throws Exception {
-		//driver.quit();
+		driver.quit();
 		log.info("");
 	}
 }

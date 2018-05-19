@@ -3,8 +3,8 @@ package com.cucumber.ecommerce.support.generic;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 
+import com.cucumber.ecommerce.support.Logger.LoggerHelper;
 import com.cucumber.ecommerce.support.TestBase.TestBase;
-import com.cucumber.ecoomerce.support.Logger.LoggerHelper;
 
 
 public class GenericHelper{

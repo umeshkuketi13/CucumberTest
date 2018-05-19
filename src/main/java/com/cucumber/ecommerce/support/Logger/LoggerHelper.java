@@ -1,4 +1,4 @@
-package com.cucumber.ecoomerce.support.Logger;
+package com.cucumber.ecommerce.support.Logger;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
