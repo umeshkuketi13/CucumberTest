@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="RegistrationRunner">
+
+
+
+<!-- <test name="DataTest">
+    <classes>
+      <class name="com.flipkart.qa.testcases.TestDataProvider.java"/>
+    </classes>
+  </test>  --> 
+
+   <test name="RegistrationRunner">
 		<classes>
 			<class name="com.cucumber.ecommerce.runner.registration.RegistrationRunner"/>
 		</classes>
@@ -23,6 +32,6 @@
 		<classes>
 			<class name="com.cucumber.ecommerce.runner.productCategory.TestProductsCountBasedOnColorRunner"/>
 		</classes>
-	</test> 
+	</test>  
 
 </suite> 
