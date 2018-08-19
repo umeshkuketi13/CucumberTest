@@ -4,34 +4,31 @@
 
 
 
-<!-- <test name="DataTest">
-    <classes>
-      <class name="com.flipkart.qa.testcases.TestDataProvider.java"/>
-    </classes>
-  </test>  --> 
-
-   <test name="RegistrationRunner">
+	<test name="RegistrationRunner">
 		<classes>
-			<class name="com.cucumber.ecommerce.runner.registration.RegistrationRunner"/>
-		</classes>
-	</test> 
-	
-	<test name="LoginRunner">
-		<classes>
-			<class name="com.cucumber.ecommerce.runner.login.LoginRunner"/>
+			<class
+				name="com.cucumber.ecommerce.runner.registration.RegistrationRunner" />
 		</classes>
 	</test>
-	
-	 <test name="TestTotalNumberOfWomenDressProductRunner">
+
+	<test name="LoginRunner">
 		<classes>
-			<class name="com.cucumber.ecommerce.runner.productCategory.TestTotalNumberOfWomenDressProductRunner"/>
+			<class name="com.cucumber.ecommerce.runner.login.LoginRunner" />
 		</classes>
-	</test>  
-	
-	 <test name="TestProductsCountBasedOnColor">
+	</test>
+
+	<test name="TestTotalNumberOfWomenDressProductRunner">
 		<classes>
-			<class name="com.cucumber.ecommerce.runner.productCategory.TestProductsCountBasedOnColorRunner"/>
+			<class
+				name="com.cucumber.ecommerce.runner.productCategory.TestTotalNumberOfWomenDressProductRunner" />
 		</classes>
-	</test>  
+	</test>
+
+	<test name="TestProductsCountBasedOnColor">
+		<classes>
+			<class
+				name="com.cucumber.ecommerce.runner.productCategory.TestProductsCountBasedOnColorRunner" />
+		</classes>
+	</test>
 
 </suite> 
